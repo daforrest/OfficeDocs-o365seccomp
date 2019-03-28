@@ -211,7 +211,7 @@ However, note that the following limits exist for a retention policy that includ
     
 Although these limits exist, understand that you can get over these limits by applying either an org-wide policy or a policy that applies to entire locations.
   
-### Skype locations
+### Skype locations (Raised to PG in 1060811 - Update documentation to specify SfB limit per policy is 100 and also how to select 100 users if they are spread throughout the tenant i.e. the policy will return 100 users but in what order? how is the 100 display determined? how do you choose the next 100? can we provide recommendations like PS scripting? https://o365exchange.visualstudio.com/IP%20Engineering/_workitems/edit/1060811 )
 
 Unlike Exchange email, you can't simply toggle the status of the Skype location on to include all users, but you can turn on that location and then manually choose the users whose conversations you want to retain.
   
